@@ -11,7 +11,7 @@ const NewsItem = ({title,description,src,url}) => {
       <p className="card-text">{description?description.slice(0,90):"News Heading"}</p>
       <p class="d-inline-flex gap-2">
       <a href={url} className="btn btn-info">Read More</a>
-     <a href='/' class="btn btn-light" role="button" data-bs-toggle="button">❤️</a>
+     <a href='/' class="btn btn-light" role="button" data-bs-toggle="button">Add to fav</a>
      </p>
     </div>
   </div>

@@ -1,0 +1,35 @@
+.filtered-results {
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .light-background {
+    background-color: #f0f8ff;
+  }
+  
+  .article-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .article-item h3 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .article-item p {
+    margin: 5px 0;
+  }
+  
+  .article-item a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .article-item a:hover {
+    text-decoration: underline;
+  }
+  
